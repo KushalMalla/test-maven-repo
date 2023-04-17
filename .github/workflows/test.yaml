@@ -11,4 +11,4 @@ jobs:
      with:
       java-version: 1.8
    - name: creating maven folder
-     run: mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=com.mycompany.app -DartifactId=my-app
+     run: mvn -v
