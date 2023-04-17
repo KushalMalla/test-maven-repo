@@ -14,3 +14,7 @@ jobs:
      run: mvn -v
    - name: build package from pom
      run: mvn -B package --file pom.xml
+   - name: change directory to target and list files
+     run: |
+      cd target
+      ls -a
